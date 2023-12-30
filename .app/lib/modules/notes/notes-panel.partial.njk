@@ -1,6 +1,3 @@
-{% from 'modules/bookmarks/bookmark-toggle.macro.njk' import bookmarkToggle %}
-{% from 'modules/notes/edit-this-note.macro.njk' import editThisNote %}
-
 <aside class="stack" data-stack="6">
   {% set toc = content | toc %}
   {% if (toc | length) and app.panel.tableOfContents %}
@@ -117,8 +114,4 @@
   </div>
   {% endif %}
 
-  <div class="inline" data-pagefind-ignore>
-    {{ bookmarkToggle(page.url | htmlBaseUrl ) }}
-    {{ editThisNote(app.editThisNote, page) }}
-  </div>
 </aside>

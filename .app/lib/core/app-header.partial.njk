@@ -1,5 +1,3 @@
-{% from 'modules/search/search.macro.njk' import searchInput %}
-
 <header class="app-header" x-data x-bind="WindowScroll">
   {% include 'core/nav-toggle.partial.njk' %}
 
@@ -9,10 +7,4 @@
 
   {% include 'modules/themes/theme-switcher.partial.njk' %}
   
-  <div class="show-md">
-    {{ searchInput('overlay') }}
-  </div>
-  <div class="hide-md">
-    {% include 'modules/search/search-button.partial.njk' %}
-  </div>
 </header>

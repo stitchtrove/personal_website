@@ -30,16 +30,6 @@
           </a>
         </li>
       {% endif %}
-      <li>
-        <a
-          href="/search/"
-          {{ '/search/' | ariaCurrent }}
-          class="nav-list__link"
-        >
-          {{ 'search' | feather | safe }}
-          <span>Search</span>
-        </a>
-      </li>
     </ul>
   </nav>
 
@@ -62,22 +52,6 @@
       </ul>
     </nav>
   {% endif %}
-
-  <template x-if="$store.bookmarks.items.length">
-    <nav aria-labelledby="app:sidebar:section:bookmarks" class="nav-section" x-cloak>
-      <h3 id="app:sidebar:section:bookmarks" class="nav-section__title">Bookmarks</h3>
-      <ul class="nav-list" role="list" aria-labelledby="app:sidebar:section:bookmarks">
-        <template x-for="bkm in $store.bookmarks.items">
-          <li>
-            <a :href="bkm" class="nav-list__link">
-              {{ 'file-text' | feather | safe }}
-              <span x-text="$store.bookmarks.index[bkm] || bkm"></span>
-            </a>
-          </li>
-        </template>
-      </ul>
-    </nav>
-  </template>
 
   {% if collections._sidebarNotes.length %}
     <nav aria-labelledby="app:sidebar:section:notes" class="nav-section">

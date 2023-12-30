@@ -2,39 +2,41 @@
 const { defineConfig } = require("./.app/app-config");
 
 module.exports = defineConfig({
-  title: "Eleventy Notes",
+  title: "Amy Westlake",
   description:
-    "A simple, lightweight, and flexible note-taking template for Eleventy.",
+    "Developer & Cross Stitcher. Welcome to my personal corner of the internet.",
   editThisNote: {
-    url: "https://github.com/rothsandro/eleventy-notes/edit/{{branch}}/{{file}}",
+    url: "",
   },
   customProperties: {
     properties: [
       {
+        name: "publishedOn",
+        options: {
+          date: {
+            locale: "en-GB",
+            format: { dateStyle: "full" },
+          },
+        },
+      },
+      {
         path: "props",
         options: {
           date: {
-            locale: "en-US",
+            locale: "en-GB",
           },
         },
       },
     ],
   },
   sidebar: {
-    links: [
-      {
-        url: "https://github.com/rothsandro/eleventy-notes",
-        label: "GitHub / Support",
-        icon: "github",
-      },
-    ],
     notes: [
       {
         pattern: "^/[^/]+$",
       },
       {
-        pattern: "^/Writing/",
-        label: "Writing Notes",
+        pattern: "^/Code/",
+        label: "Writing about code",
         tree: {
           replace: {
             "^/\\w+": "",
@@ -42,12 +44,8 @@ module.exports = defineConfig({
         },
       },
       {
-        pattern: "^/Organizing/",
-        label: "Organizing Notes",
-      },
-      {
-        pattern: "^/Features/",
-        label: "Core Features",
+        pattern: "^/Weeknotes/",
+        label: "Week notes",
         tree: {
           replace: {
             "^/\\w+": "",
@@ -55,13 +53,14 @@ module.exports = defineConfig({
         },
       },
       {
-        pattern: "^/Deployment/",
-        label: "Deployment",
-      },
-      {
-        pattern: "^/Releases/",
-        label: "Releases",
-      },
+        pattern: "^/Lists/",
+        label: "Lists",
+        tree: {
+          replace: {
+            "^/\\w+": "",
+          },
+        },
+      }
     ],
   },
   tags: {

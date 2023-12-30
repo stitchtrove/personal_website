@@ -1,23 +1,29 @@
 ---
 title: Home
-headline: Welcome to Eleventy Notes
+headline: Amy Westlake
 panel: false
 ---
 
-Welcome to **Eleventy Notes**, an opinionated template for publishing your personal notes, documentation, or even your blog! Built with [Eleventy](https://11ty.dev/), the powerful static site generator, Eleventy Notes is packed with features you'll love.
+# What I’m doing now
 
-With Eleventy Notes, you can:
+This is a <a href="https://nownownow.com/about">now</a> page and was last updated on 30/12/2023.
 
-- ✅ Create [[Wikilinks]] and backlinks to easily navigate your content
-- ✅ Organize your content with [[Tags]] for easy searching and filtering
-- ✅ Quickly find what you need with a [[Search|client-side search]]
-- ✅ Choose from two [[Themes]] and multiple color schemes to match your style
-- ✅ Customize your [[Sidebar]] with support for folders and subfolders
-- ✅ Enjoy a lightweight and fast experience, with minimal JavaScript
-- ... and much more!
+## Working
 
-Whether you're a blogger, developer, or just someone who loves to write, Eleventy Notes has everything you need to publish your content. So what are you waiting for? Get started today by reading our [[Getting started]] guide and start sharing your thoughts with the world!
+Developer with 12 years experience based in Plymouth, UK and currently at the <a href="https://bfi.org.uk" target="_blank">BFI as a Software Developer</a>. 
 
----
+## Projects
 
-Built with ❤️ by [Sandro Roth](https://sandroroth.com/)
+My passion project is <a href="https://stitchtrove.com" target="_blank">Stitchtrove</a>, an online hub for cross stitchers, built with Laravel and Livewire. 
+
+This blog is built using <a href="https://www.11ty.dev/" target="_blank">11ty</a> and hosted on <a href="https://netlify.com" target="_blank">netlify</a> with a special shoutout to <a href="https://eleventy-notes.sandroroth.com/">11ty Notes</a>. 
+
+## Everything else
+
+Reading Bookshops & Bonedust, next up is The Fragile Threads of Power and then Good Omens.
+
+Playing DDO, Solasta and Stardew. 
+
+Cross Stitching over on <a href="https://www.instagram.com/amy_k_w/" target="_blank">Instagram</a>.
+
+Recently lost 3 stone and ran my first 5k in 44 mins, my current deadlift and squat weight is 60kg.
