@@ -1,6 +1,5 @@
-After giving up GoodReads for being terrible I now just keep a simple list of what I'm reading/have read.
-
 <ul>
+    <li>Bookshops & Bonedust - Travis Baldree</li>
     <li>The Running Grave - Robert Galbraith</li>
     <li>Legends & Lattes - Travis Baldree</li>
     <li>Mexican Gothic - Silvia Moreno-Garcia</li>

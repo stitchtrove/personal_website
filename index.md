@@ -6,7 +6,7 @@ panel: false
 
 # What I’m doing now
 
-This is a <a href="https://nownownow.com/about">now</a> page and was last updated on 30/12/2023.
+This is a <a href="https://nownownow.com/about">now</a> page and was last updated on 20/02/2024.
 
 ## Working
 
@@ -20,10 +20,8 @@ This blog is built using <a href="https://www.11ty.dev/" target="_blank">11ty</a
 
 ## Everything else
 
-Reading Bookshops & Bonedust, next up is The Fragile Threads of Power and then Good Omens.
+Reading The Fragile Threads of Power and then Good Omens.
 
 Playing DDO, Solasta and Stardew. 
 
 Cross Stitching over on <a href="https://www.instagram.com/amy_k_w/" target="_blank">Instagram</a>.
-
-Recently lost 3 stone and ran my first 5k in 44 mins, my current deadlift and squat weight is 60kg.
