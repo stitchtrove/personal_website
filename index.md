@@ -22,6 +22,6 @@ This blog is built using <a href="https://www.11ty.dev/" target="_blank">11ty</a
 
 Reading The Fragile Threads of Power and then Good Omens.
 
-Playing DDO, Solasta and Stardew. 
+Playing DDO, Wasteland2 and Stardew. 
 
 Cross Stitching over on <a href="https://www.instagram.com/amy_k_w/" target="_blank">Instagram</a>.

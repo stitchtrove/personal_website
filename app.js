@@ -42,24 +42,6 @@ module.exports = defineConfig({
             "^/\\w+": "",
           },
         },
-      },
-      {
-        pattern: "^/Weeknotes/",
-        label: "Week notes",
-        tree: {
-          replace: {
-            "^/\\w+": "",
-          },
-        },
-      },
-      {
-        pattern: "^/Lists/",
-        label: "Lists",
-        tree: {
-          replace: {
-            "^/\\w+": "",
-          },
-        },
       }
     ],
   },

@@ -1,6 +1,6 @@
 ---
 sort: 1
-tags: ["Real code", "Laravel", "Livewire", "Stitchtrove"]
+tags: ["Real code", "Laravel", "Livewire"]
 publishedOn: 2023-12-30
 ---
 
