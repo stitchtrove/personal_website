@@ -1,0 +1,5 @@
+<ul class="list">
+    {% for note in collections.notes %}
+    <li><a href="{{ note.url }}">{{ note.data.title }}</a></li>
+    {% endfor %}
+</ul>

@@ -1,0 +1,30 @@
+---
+layout: base.njk
+---
+
+<article>
+    {{ post | dump }}
+    <h1 class="page_title">{{title}}</h1>
+    <ul class="post_data list">
+        <p>Originally posted <time datetime="{{ publishedOn | readableDate }}">{{ publishedOn | readableDate }}</time></p>
+        <div class="tag_list">
+            {%- for topic in topics %}
+                <small>{{ topic }}</small>
+            {%- endfor %}
+            </div>
+    </ul>
+    {{ content | safe}}
+</article>
+{%- if collections.posts %}
+{%- set previousPost = collections.posts | getPreviousCollectionItem %}
+{%- set nextPost = collections.posts | getNextCollectionItem %}
+{%- if nextPost or previousPost %}
+<div class="recs">
+    <h3>You may also like</h3>
+    <ul class="links-nextprev list">
+        {%- if previousPost %}<li>Previous: <a href="{{ previousPost.url }}">{{ previousPost.data.title }}</a></li>{% endif %}
+        {%- if nextPost %}<li>Next: <a href="{{ nextPost.url }}">{{ nextPost.data.title }}</a></li>{% endif %}
+    </ul>
+</div>
+{%- endif %}
+{%- endif %}

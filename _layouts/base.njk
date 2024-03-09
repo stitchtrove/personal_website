@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <link rel="preconnect" href="https://fonts.bunny.net">
+    <link href="https://fonts.bunny.net/css?family=inter:200,300,400,600" rel="stylesheet"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{title}}</title>
+    <link rel="stylesheet" href="/assets/css/style.css" />
+
+</head>
+<body>
+    <header class="debug">
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/blog">Blog</a></li>
+                <li><a href="/notes">Notes</a></li>
+                <li><a href="/now">Now</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="content_wrapper debug">
+    {{ content | safe }}
+    </div>
+    <footer>
+    Copyright Amy Westlake 2011 - 2024
+    </footer>
+</body>
+</html> 
