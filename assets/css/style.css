@@ -109,14 +109,10 @@ nav ul li a {
 }
 
 .page_title {
-    font-size: 3rem;
-    line-height: 3.6rem;
+    font-size: 2rem;
+    line-height: 2.6rem;
     margin-bottom: 3rem;
     color: #1898bc;
-    /* --angle: -3deg;
-    --unskew: rotate(calc(var(--angle)*-1))skew(calc(var(--angle)*-1));
-    -webkit-transform: rotate(var(--angle))skew(var(--angle));
-    transform: rotate(var(--angle))skew(var(--angle)); */
 }
 
 article {
@@ -177,5 +173,10 @@ blockquote p {
     .content_wrapper,
     footer {
         padding-left: 3rem;
+    }
+
+    .page_title {
+        font-size: 3rem;
+        line-height: 3.6rem;
     }
 }
