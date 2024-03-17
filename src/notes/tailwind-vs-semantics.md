@@ -1,11 +1,11 @@
 ---
 topics: ["CSS", "tailwind", "frontend"]
 publishedOn: 2024-03-10
-title: Tailwind vs. Semantic CSS
+title: Why we can't all agree on Tailwind
 ---
 
 
->Found a really interesting article that builds a page twice, once with tailwind and once with css, then compares the outcome.<br/>
+>Found a really great article that is able to put into words why I don't like Tailwind. <br/> TLDR: It solves a problem I never experienced with CSS.
 
 
-Source: <a target="_blank" href="https://nuejs.org/blog/tailwind-vs-semantic-css/">Tailwind vs. Semantic CSS</a><br/><br/>
+Source: <a target="_blank" href="https://joshcollinsworth.com/blog/tailwind-is-smart-steering">Classic rock, Mario Kart, and why we can't agree on Tailwind</a><br/><br/>
