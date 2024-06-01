@@ -1,11 +1,10 @@
 # What I’m doing now
 
-This is a <a href="https://nownownow.com/about">now</a> page and was last updated on 07/03/2024.
+This is a <a href="https://nownownow.com/about">now</a> page and was last updated on 01/06/2024.
 
 ## Working
 
-Developer with 12 years experience based in Plymouth, UK and currently at the <a href="https://bfi.org.uk"
-    target="_blank">BFI as a Software Dev</a>.
+Developer with 12 years experience based in Plymouth, UK and currently at the <a href="https://bfi.org.uk" target="_blank">BFI as a Software Dev</a>.
 
 ## Projects
 
@@ -17,6 +16,6 @@ This blog is built using <a href="https://www.11ty.dev/" target="_blank">11ty</a
 
 ## Everything else
 
-Reading The Fragile Threads of Power by V. E. Schwab
+Reading Good Omens by Terry Pratchett & Neil Gaiman
 
 Playing DDO and Stardew Valley.
