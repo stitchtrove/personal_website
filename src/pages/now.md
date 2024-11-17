@@ -1,6 +1,6 @@
 # What I’m doing now
 
-This is a <a href="https://nownownow.com/about">now</a> page and was last updated on 01/06/2024.
+This is a <a href="https://nownownow.com/about">now</a> page and was last updated on 17/11/2024.
 
 ## Working
 
@@ -11,11 +11,11 @@ Developer with 12 years experience based in Plymouth, UK and currently at the <a
 My passion project is <a href="https://stitchtrove.com" target="_blank">Stitchtrove</a>, an online hub for cross
 stitchers, built with Laravel and Livewire.
 
-This blog is built using <a href="https://www.11ty.dev/" target="_blank">11ty</a> using a custom theme and hosted on <a
+This blog is built using <a href="https://www.11ty.dev/" target="_blank">11ty</a> using a <a href="https://github.com/edwardtufte/tufte-css/tree/gh-pages?tab=readme-ov-file" target="_blank">Tufte.css</a> and hosted on <a
     href="https://netlify.com" target="_blank">netlify</a></a>.
 
 ## Everything else
 
-Reading Good Omens by Terry Pratchett & Neil Gaiman
+Reading We Solve Murders by Richard Osman.
 
-Playing DDO and Stardew Valley.
+Playing DDO.

@@ -3,6 +3,7 @@ layout: base.njk
 ---
 
 <article>
+    <section>
     {{ post | dump }}
     <h1 class="page_title">{{title}}</h1>
     <ul class="post_data list">
@@ -14,6 +15,7 @@ layout: base.njk
             </div>
     </ul>
     {{ content | safe}}
+    </section>
 </article>
 {%- if collections.posts %}
 {%- set previousPost = collections.posts | getPreviousCollectionItem %}

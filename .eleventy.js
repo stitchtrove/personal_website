@@ -24,6 +24,7 @@ module.exports = function(eleventyConfig){
         return DateTime.fromJSDate(dateObj, {zone: 'utc'}).toFormat("dd LLL yyyy");
     });
     eleventyConfig.addPassthroughCopy("./assets/css");
+    eleventyConfig.addPassthroughCopy("./assets/et-book");
     eleventyConfig.addWatchTarget("./assets/css/style.css");
     return {
         dir: {
